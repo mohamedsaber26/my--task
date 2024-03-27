@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .icon i{
+  font-size: 25px;
+  cursor: pointer;
+}
+header .icon i:hover{
+    color: red;
+
+}
+.hero-section{
+    background-image: url("./12798min.jpg") ;
+    min-height: 100svh;
+    width: 100%;
+    position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-section h1,p{
+    color: #fff;
+}
+.text h1{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    padding: 40px;
+    font-size: 50px;
+    width: 1px;
+
+}
+.text p{
+    width: 400px;
+    margin-left: 900px;
+    margin-bottom: 100px;
+}
+.card{
+    background-color: #1a1a1a;
+    display: flex;
+    padding: 50px;
+   
+}
+.cards{
+    background-color: #434951;
+    width: 400px;
+   
+    
+}
